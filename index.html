@@ -4,82 +4,148 @@
 <head>
 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>BA TRANS SERVICES | Transport de personnes et de marchandises</title>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+
+    <title>BA TRANS SERVICES | Transport de personnes et de marchandises en Île-de-France</title>
 
     <meta name="description"
-        content="BA TRANS SERVICES à Villeneuve-la-Garenne : transport de personnes et de marchandises, transferts, missions programmées et services de transport en Île-de-France.">
+        content="BA TRANS SERVICES à Villeneuve-la-Garenne propose des services de transport de personnes et de marchandises, transferts et missions programmées en Île-de-France.">
 
-    <meta name="robots" content="index, follow">
+    <meta name="robots"
+        content="index, follow">
 
-    <meta name="author" content="BA TRANS SERVICES">
+    <meta name="author"
+        content="BA TRANS SERVICES">
 
     <link rel="canonical"
         href="https://imanebouu.github.io/ba_trans_services/">
 
-    <!-- Google Search Console -->
+    <meta name="theme-color"
+        content="#212529">
+
+
+    <!-- GOOGLE SEARCH CONSOLE -->
+
     <meta name="google-site-verification"
         content="GWoudyOvGr4jMJ1KyZvyDMR86te4GabN0rS75m5b9Dc">
 
 
-    <!-- Open Graph -->
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="fr_FR">
-    <meta property="og:site_name" content="BA TRANS SERVICES">
+    <!-- OPEN GRAPH -->
+
+    <meta property="og:type"
+        content="website">
+
+    <meta property="og:locale"
+        content="fr_FR">
+
+    <meta property="og:site_name"
+        content="BA TRANS SERVICES">
 
     <meta property="og:title"
         content="BA TRANS SERVICES | Transport de personnes et de marchandises">
 
     <meta property="og:description"
-        content="Transport de personnes et de marchandises, transferts et missions programmées à Villeneuve-la-Garenne et en Île-de-France.">
+        content="BA TRANS SERVICES propose des solutions de transport de personnes et de marchandises, transferts et missions programmées à Villeneuve-la-Garenne et en Île-de-France.">
 
     <meta property="og:url"
         content="https://imanebouu.github.io/ba_trans_services/">
 
     <meta property="og:image"
-        content="https://imanebouu.github.io/ba_trans_services/images%20/logo.png">
+        content="https://imanebouu.github.io/ba_trans_services/images/logo.png">
 
     <meta property="og:image:alt"
         content="Logo BA TRANS SERVICES">
 
 
-    <!-- Données structurées pour Google -->
+    <!-- TWITTER / X -->
+
+    <meta name="twitter:card"
+        content="summary_large_image">
+
+    <meta name="twitter:title"
+        content="BA TRANS SERVICES | Transport de personnes et de marchandises">
+
+    <meta name="twitter:description"
+        content="Transport de personnes et de marchandises à Villeneuve-la-Garenne et en Île-de-France.">
+
+    <meta name="twitter:image"
+        content="https://imanebouu.github.io/ba_trans_services/images/logo.png">
+
+
+    <!-- DONNÉES STRUCTURÉES -->
+
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
+        "@id": "https://imanebouu.github.io/ba_trans_services/#business",
+
         "name": "BA TRANS SERVICES",
         "alternateName": "B.A TRANS'SERVICES",
-        "description": "Entreprise spécialisée dans le transport de personnes et de marchandises, les transferts et les missions de transport programmées.",
+
+        "description": "Entreprise spécialisée dans le transport de personnes et de marchandises, les transferts et les missions de transport programmées à Villeneuve-la-Garenne et en Île-de-France.",
+
         "url": "https://imanebouu.github.io/ba_trans_services/",
+
         "telephone": "+33 6 75 31 70 62",
+
         "email": "batransservices@hotmail.fr",
+
+        "image": [
+            "https://imanebouu.github.io/ba_trans_services/images/logo.png",
+            "https://imanebouu.github.io/ba_trans_services/images/entreprise.jpg",
+            "https://imanebouu.github.io/ba_trans_services/images/vehicule1.jpg",
+            "https://imanebouu.github.io/ba_trans_services/images/vehicule2.jpg",
+            "https://imanebouu.github.io/ba_trans_services/images/vehicule3.jpg"
+        ],
+
         "address": {
             "@type": "PostalAddress",
             "streetAddress": "Rue Paul Signac",
             "postalCode": "92390",
             "addressLocality": "Villeneuve-la-Garenne",
+            "addressRegion": "Île-de-France",
             "addressCountry": "FR"
         },
+
         "areaServed": {
             "@type": "AdministrativeArea",
             "name": "Île-de-France"
         },
-        "openingHours": "Mo-Sa 08:00-20:00"
+
+        "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday"
+            ],
+            "opens": "08:00",
+            "closes": "20:00"
+        }
     }
     </script>
 
 
-    <!-- Bootstrap -->
+    <!-- BOOTSTRAP -->
+
     <link rel="stylesheet"
         href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
 
-    <!-- Bootstrap Icons -->
+
+    <!-- BOOTSTRAP ICONS -->
+
     <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
+
     <!-- CSS -->
+
     <link rel="stylesheet"
         href="styles/style.css">
 
@@ -89,7 +155,7 @@
 <body>
 
 
-    <!-- ================= NAVBAR ================= -->
+    <!-- NAVBAR -->
 
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top"
         id="navbar">
@@ -97,11 +163,14 @@
         <div class="container">
 
             <a class="navbar-brand d-flex align-items-center"
-                href="#">
+                href="#hero"
+                aria-label="BA TRANS SERVICES - Accueil">
 
                 <img src="images/logo.png"
                     class="logo"
-                    alt="Logo BA TRANS SERVICES">
+                    alt="Logo BA TRANS SERVICES"
+                    width="60"
+                    height="60">
 
                 <span>
                     B.A TRANS'SERVICES
@@ -180,9 +249,10 @@
 
 
 
-    <!-- ================= HERO ================= -->
+    <!-- HERO -->
 
-    <section id="hero">
+    <section id="hero"
+        aria-labelledby="titre-principal">
 
         <div class="overlay"></div>
 
@@ -192,14 +262,14 @@
 
                 <div class="col-lg-8">
 
-                    <h1>
-                        Votre partenaire de confiance
-                        pour le transport routier
+                    <h1 id="titre-principal">
+                        Transport de personnes et de marchandises
+                        à Villeneuve-la-Garenne et en Île-de-France
                     </h1>
 
                     <p>
-                        Transport de personnes et de marchandises
-                        en toute sécurité
+                        BA TRANS SERVICES vous accompagne avec des solutions
+                        de transport fiables, ponctuelles et sécurisées.
                     </p>
 
                     <p>
@@ -223,10 +293,11 @@
 
 
 
-    <!-- ================= A PROPOS ================= -->
+    <!-- A PROPOS -->
 
     <section id="apropos"
-        class="py-5">
+        class="py-5"
+        aria-labelledby="titre-apropos">
 
         <div class="container">
 
@@ -236,14 +307,15 @@
 
                     <img src="images/entreprise.jpg"
                         class="img-fluid rounded shadow"
-                        alt="BA TRANS SERVICES - entreprise de transport">
+                        alt="BA TRANS SERVICES, entreprise de transport à Villeneuve-la-Garenne"
+                        loading="lazy">
 
                 </div>
 
 
                 <div class="col-lg-6">
 
-                    <h2>
+                    <h2 id="titre-apropos">
                         Qui sommes-nous ?
                     </h2>
 
@@ -266,6 +338,12 @@
                         missions programmées.
                     </p>
 
+                    <p>
+                        Basée à Villeneuve-la-Garenne, BA TRANS SERVICES
+                        intervient pour différents besoins de transport
+                        en Île-de-France.
+                    </p>
+
                 </div>
 
             </div>
@@ -276,15 +354,19 @@
 
 
 
-    <!-- ================= SERVICES ================= -->
+    <!-- SERVICES -->
 
     <section id="services"
-        class="py-5 bg-light">
+        class="py-5 bg-light"
+        aria-labelledby="titre-services">
 
         <div class="container">
 
-            <h2 class="text-center mb-5">
+            <h2 id="titre-services"
+                class="text-center mb-5">
+
                 Nos services
+
             </h2>
 
 
@@ -297,15 +379,17 @@
 
                         <div class="card-body text-center">
 
-                            <i class="bi bi-car-front display-3"></i>
+                            <i class="bi bi-car-front display-3"
+                                aria-hidden="true"></i>
 
-                            <h4 class="mt-4">
-                                Transport privé
-                            </h4>
+                            <h3 class="mt-4">
+                                Transport de personnes
+                            </h3>
 
                             <p>
-                                Trajets ponctuels ou réguliers
-                                pour vos déplacements.
+                                Trajets ponctuels ou réguliers pour vos
+                                déplacements personnels et professionnels,
+                                dans un cadre fiable et sécurisé.
                             </p>
 
                         </div>
@@ -322,15 +406,17 @@
 
                         <div class="card-body text-center">
 
-                            <i class="bi bi-calendar-check display-3"></i>
+                            <i class="bi bi-box-seam display-3"
+                                aria-hidden="true"></i>
 
-                            <h4 class="mt-4">
-                                Missions programmées
-                            </h4>
+                            <h3 class="mt-4">
+                                Transport de marchandises
+                            </h3>
 
                             <p>
-                                Organisation des missions quotidiennes
-                                selon vos besoins.
+                                Solutions de transport adaptées aux besoins
+                                de vos marchandises, pour des missions
+                                ponctuelles ou programmées.
                             </p>
 
                         </div>
@@ -347,14 +433,17 @@
 
                         <div class="card-body text-center">
 
-                            <i class="bi bi-airplane display-3"></i>
+                            <i class="bi bi-airplane display-3"
+                                aria-hidden="true"></i>
 
-                            <h4 class="mt-4">
-                                Transferts
-                            </h4>
+                            <h3 class="mt-4">
+                                Transferts et missions programmées
+                            </h3>
 
                             <p>
-                                Gares, aéroports et longues distances.
+                                Transferts vers les gares et aéroports,
+                                longues distances et organisation de
+                                missions selon vos besoins.
                             </p>
 
                         </div>
@@ -372,15 +461,19 @@
 
 
 
-    <!-- ================= POURQUOI NOUS ================= -->
+    <!-- POURQUOI NOUS -->
 
     <section id="pourquoi"
-        class="py-5">
+        class="py-5"
+        aria-labelledby="titre-pourquoi">
 
         <div class="container">
 
-            <h2 class="text-center mb-5">
+            <h2 id="titre-pourquoi"
+                class="text-center mb-5">
+
                 Pourquoi choisir B.A TRANS'SERVICES ?
+
             </h2>
 
 
@@ -389,10 +482,10 @@
 
                 <div class="col-md-3">
 
-                    <h1 class="counter"
+                    <h3 class="counter"
                         data-target="100">
                         0
-                    </h1>
+                    </h3>
 
                     <p>
                         Clients satisfaits
@@ -403,10 +496,10 @@
 
                 <div class="col-md-3">
 
-                    <h1 class="counter"
+                    <h3 class="counter"
                         data-target="500">
                         0
-                    </h1>
+                    </h3>
 
                     <p>
                         Missions réalisées
@@ -417,10 +510,10 @@
 
                 <div class="col-md-3">
 
-                    <h1 class="counter"
+                    <h3 class="counter"
                         data-target="10">
                         0
-                    </h1>
+                    </h3>
 
                     <p>
                         Années d'expérience
@@ -431,10 +524,10 @@
 
                 <div class="col-md-3">
 
-                    <h1 class="counter"
+                    <h3 class="counter"
                         data-target="24">
                         0
-                    </h1>
+                    </h3>
 
                     <p>
                         Disponibilité
@@ -451,15 +544,19 @@
 
 
 
-    <!-- ================= FLOTTE ================= -->
+    <!-- FLOTTE -->
 
     <section id="flotte"
-        class="py-5 bg-light">
+        class="py-5 bg-light"
+        aria-labelledby="titre-flotte">
 
         <div class="container">
 
-            <h2 class="text-center mb-5">
+            <h2 id="titre-flotte"
+                class="text-center mb-5">
+
                 Notre flotte
+
             </h2>
 
 
@@ -470,7 +567,8 @@
 
                     <img src="images/vehicule1.jpg"
                         class="img-fluid rounded shadow"
-                        alt="Véhicule BA TRANS SERVICES">
+                        alt="Véhicule de transport BA TRANS SERVICES"
+                        loading="lazy">
 
                 </div>
 
@@ -479,7 +577,8 @@
 
                     <img src="images/vehicule2.jpg"
                         class="img-fluid rounded shadow"
-                        alt="Véhicule de transport BA TRANS SERVICES">
+                        alt="Véhicule de transport de personnes BA TRANS SERVICES"
+                        loading="lazy">
 
                 </div>
 
@@ -488,7 +587,8 @@
 
                     <img src="images/vehicule3.jpg"
                         class="img-fluid rounded shadow"
-                        alt="Flotte de véhicules BA TRANS SERVICES">
+                        alt="Flotte de véhicules BA TRANS SERVICES"
+                        loading="lazy">
 
                 </div>
 
@@ -501,17 +601,18 @@
 
 
 
-    <!-- ================= CONTACT ================= -->
+    <!-- CONTACT -->
 
     <section id="contact"
-        class="py-5">
+        class="py-5"
+        aria-labelledby="titre-contact">
 
         <div class="container">
 
 
             <div class="text-center mb-5">
 
-                <h2>
+                <h2 id="titre-contact">
                     Contactez-nous
                 </h2>
 
@@ -527,21 +628,21 @@
             <div class="row">
 
 
-                <!-- Informations -->
-
                 <div class="col-lg-5 mb-4">
 
                     <div class="card border-0 shadow h-100">
 
                         <div class="card-body p-4">
 
-                            <h4 class="mb-4">
+                            <h3 class="mb-4">
                                 Nos coordonnées
-                            </h4>
+                            </h3>
 
 
                             <p>
-                                <i class="bi bi-geo-alt-fill me-2"></i>
+
+                                <i class="bi bi-geo-alt-fill me-2"
+                                    aria-hidden="true"></i>
 
                                 Rue Paul Signac,
                                 92390 Villeneuve-la-Garenne
@@ -551,26 +652,38 @@
 
                             <p>
 
-                                <i class="bi bi-telephone-fill me-2"></i>
+                                <i class="bi bi-telephone-fill me-2"
+                                    aria-hidden="true"></i>
 
-                                06 75 31 70 62 /
-                                06 78 20 74 63
+                                <a href="tel:+33675317062">
+                                    06 75 31 70 62
+                                </a>
+
+                                /
+
+                                <a href="tel:+33678207463">
+                                    06 78 20 74 63
+                                </a>
 
                             </p>
 
 
                             <p>
 
-                                <i class="bi bi-envelope-fill me-2"></i>
+                                <i class="bi bi-envelope-fill me-2"
+                                    aria-hidden="true"></i>
 
-                                batransservices@hotmail.fr
+                                <a href="mailto:batransservices@hotmail.fr">
+                                    batransservices@hotmail.fr
+                                </a>
 
                             </p>
 
 
                             <p>
 
-                                <i class="bi bi-clock-fill me-2"></i>
+                                <i class="bi bi-clock-fill me-2"
+                                    aria-hidden="true"></i>
 
                                 Lundi au Samedi
                                 <br>
@@ -586,8 +699,6 @@
                 </div>
 
 
-
-                <!-- Formulaire -->
 
                 <div class="col-lg-7">
 
@@ -616,7 +727,6 @@
                                     value="table">
 
 
-                                <!-- Correction de l'URL -->
                                 <input type="hidden"
                                     name="_next"
                                     value="https://imanebouu.github.io/ba_trans_services/">
@@ -628,12 +738,17 @@
 
                                     <div class="col-md-6 mb-3">
 
-                                        <label class="form-label">
+                                        <label
+                                            class="form-label"
+                                            for="nom">
+
                                             Nom
+
                                         </label>
 
                                         <input
                                             type="text"
+                                            id="nom"
                                             class="form-control"
                                             name="Nom"
                                             placeholder="Votre nom"
@@ -646,12 +761,17 @@
 
                                     <div class="col-md-6 mb-3">
 
-                                        <label class="form-label">
+                                        <label
+                                            class="form-label"
+                                            for="email">
+
                                             Adresse e-mail
+
                                         </label>
 
                                         <input
                                             type="email"
+                                            id="email"
                                             class="form-control"
                                             name="Email"
                                             placeholder="exemple@email.fr"
@@ -667,12 +787,17 @@
 
                                 <div class="mb-3">
 
-                                    <label class="form-label">
+                                    <label
+                                        class="form-label"
+                                        for="objet">
+
                                         Objet
+
                                     </label>
 
                                     <input
                                         type="text"
+                                        id="objet"
                                         class="form-control"
                                         name="Objet"
                                         placeholder="Objet de votre demande"
@@ -684,11 +809,16 @@
 
                                 <div class="mb-4">
 
-                                    <label class="form-label">
+                                    <label
+                                        class="form-label"
+                                        for="message">
+
                                         Message
+
                                     </label>
 
                                     <textarea
+                                        id="message"
                                         class="form-control"
                                         rows="6"
                                         name="Message"
@@ -703,7 +833,8 @@
                                     type="submit"
                                     class="btn btn-warning btn-lg w-100">
 
-                                    <i class="bi bi-send-fill me-2"></i>
+                                    <i class="bi bi-send-fill me-2"
+                                        aria-hidden="true"></i>
 
                                     Envoyer le message
 
@@ -728,9 +859,10 @@
 
 
 
-    <!-- ================= CARTE ================= -->
+    <!-- CARTE -->
 
-    <section id="carte">
+    <section id="carte"
+        aria-label="Localisation de BA TRANS SERVICES">
 
         <iframe
             src="https://www.google.com/maps?q=Rue+Paul+Signac,+92390+Villeneuve-la-Garenne,+France&output=embed"
@@ -738,14 +870,15 @@
             height="450"
             style="border:0;"
             loading="lazy"
-            title="Localisation de BA TRANS SERVICES à Villeneuve-la-Garenne">
+            title="Localisation de BA TRANS SERVICES à Villeneuve-la-Garenne"
+            allowfullscreen>
         </iframe>
 
     </section>
 
 
 
-    <!-- ================= FOOTER ================= -->
+    <!-- FOOTER -->
 
     <footer class="bg-dark text-light py-5">
 
@@ -756,14 +889,15 @@
 
                 <div class="col-lg-4">
 
-                    <h4>
+                    <h2>
                         B.A TRANS'SERVICES
-                    </h4>
+                    </h2>
 
                     <p>
-                        Société spécialisée dans le transport routier,
-                        mettant la qualité de service, la sécurité et la
-                        ponctualité au cœur de ses engagements.
+                        Société spécialisée dans le transport de personnes
+                        et de marchandises, mettant la qualité de service,
+                        la sécurité et la ponctualité au cœur de ses
+                        engagements.
                     </p>
 
                 </div>
@@ -772,9 +906,9 @@
 
                 <div class="col-lg-4">
 
-                    <h5>
+                    <h3>
                         Navigation
-                    </h5>
+                    </h3>
 
                     <ul class="list-unstyled">
 
@@ -814,16 +948,16 @@
 
                 <div class="col-lg-4">
 
-                    <h5>
+                    <h3>
                         Suivez-nous
-                    </h5>
-
+                    </h3>
 
                     <a href="#"
                         class="text-light fs-3 me-3"
                         aria-label="Facebook">
 
-                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-facebook"
+                            aria-hidden="true"></i>
 
                     </a>
 
@@ -832,7 +966,8 @@
                         class="text-light fs-3 me-3"
                         aria-label="LinkedIn">
 
-                        <i class="bi bi-linkedin"></i>
+                        <i class="bi bi-linkedin"
+                            aria-hidden="true"></i>
 
                     </a>
 
@@ -841,10 +976,10 @@
                         class="text-light fs-3"
                         aria-label="Instagram">
 
-                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-instagram"
+                            aria-hidden="true"></i>
 
                     </a>
-
 
                 </div>
 
@@ -862,27 +997,27 @@
 
             </div>
 
-
         </div>
 
     </footer>
 
 
 
-    <!-- ================= RETOUR EN HAUT ================= -->
+    <!-- RETOUR EN HAUT -->
 
     <button
         id="backToTop"
         class="btn btn-warning rounded-circle"
         aria-label="Retour en haut">
 
-        <i class="bi bi-arrow-up"></i>
+        <i class="bi bi-arrow-up"
+            aria-hidden="true"></i>
 
     </button>
 
 
 
-    <!-- ================= SCRIPTS ================= -->
+    <!-- SCRIPTS -->
 
     <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
 
